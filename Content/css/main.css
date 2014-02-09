@@ -1,0 +1,19 @@
+fieldset {width:362px;}
+fieldset>fieldset {padding:0px;margin:0px;margin-bottom: 5px;padding-bottom: 5px;padding-right: 10px;}
+label.leftLabel { float:left; clear:both; width:135px; text-align:right; padding-right:4px; }
+label.leftLabel:after { content:':'; }
+label.rightLabel {float:left; }
+span.spanLabel {float:left;width: 223px; word-wrap: break-word;}
+div.divLabel {float:left; clear:both; }
+input, select, textarea, button { float:left; }
+.CorrectionBox { color:red; max-height: 200px; overflow-x: auto;}
+.error {clear:both; float:left;}
+.logout { position: absolute;right: 0px;top: 0px;padding: 5px; }
+select { margin-left: 2px; width: 153px; }
+ul.menu { position: absolute;top: 0px;left: 0px;padding: 5px;margin: 0px; z-index:999; }
+ul.menu ul { clear:both; background-color: white; border: none; display:none; overflow:hidden; list-style-type:none;}
+ul.menu > li { border: 1px solid black; float:left; background-color: white;padding:5px;min-width: 100px;text-align:center;font-weight:bold;}
+ul.menu > li ul li {text-align:left; font-weight:normal;}
+ul.menu li:hover > ul { display:table-row;}
+ul.menu li:hover > ul > li { padding-left: 20px;}
+body { padding-top:30px; }
